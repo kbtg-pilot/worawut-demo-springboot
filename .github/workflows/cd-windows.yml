@@ -4,7 +4,7 @@ on:
 
 jobs:
     test-windows-cmd:
-        runs-on: CDEVWDEJEWAP01
+        runs-on: self-hosted
         steps:
             - name: Run a one-line script
               run: echo Hello, world!
